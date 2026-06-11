@@ -97,6 +97,18 @@ his project is licensed under the MIT License
 5. Commit the file to your repo (on a branch, not directly to `main`).  
 6. Open a Pull Request → reviewers approve → merge into `main`.
 
- 
+---
+
+
+Quick Reference Table
+
+| Task                  | Yarn Command          | npm Equivalent        |
+|-----------------------|-----------------------|-----------------------|
+| Install dependencies  | `yarn install`        | `npm install`         |
+| Run dev server        | `yarn dev`            | `npm run dev`         |
+| Start app             | `yarn start`          | `npm start`           |
+| Add a package         | `yarn add <package>`  | `npm install <package>` |
+| Remove a package      | `yarn remove <package>` | `npm uninstall <package>` |
+
 
  

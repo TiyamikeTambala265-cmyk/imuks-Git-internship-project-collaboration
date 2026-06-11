@@ -89,9 +89,6 @@ Force pushes and deletions are blocked
 License
 his project is licensed under the MIT License
 
-
----
-
 ### 📌 How to Add This
 1. On GitHub, go to your repo.  
 2. Click **Add file → Create new file**.  

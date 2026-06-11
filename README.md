@@ -50,6 +50,7 @@ yarn ios
 NOTE: If your pc is not powerfull enough for emulation or you just want to use your phone, you can connect your phone to the pc after turing on developers mode depending on which platform your own, watch some tutorials for more information.
 
 COLLABORATION RULES YOU MUST FOLLOW AT ALL TIMES
+
  No direct pushes to the main branch
   All changes must go through a pull request
 

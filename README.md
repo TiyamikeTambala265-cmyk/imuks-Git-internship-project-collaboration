@@ -8,13 +8,14 @@ It contains a **monorepo** setup with both a Next.js web app and a React Native 
 
 ## 📂 Project Structure
 repo-root/
-├── apps/
-│    ├── web/          # Next.js app
-│    └── mobile/       # React Native app
-├── packages/          # Shared code (components, utils, etc.)
-├── tests/             # Centralized test configs
-├── .github/           # Workflows and PR templates
-├── README.md
+ ├── apps/
+ │    ├── web/          # Next.js app
+ │    └── mobile/       # React Native app
+ ├── packages/          # Shared code (components, utils, etc.)
+ ├── tests/             # Centralized test configs
+ ├── .github/           # Workflows and PR templates
+ ├── README.md
+
 
 
 ---
@@ -35,6 +36,8 @@ Run Next.js (web)
 cd apps/web
 yarn dev
 ```
+---
+
 NOTE:App runs at: http://localhost:3000
 
 Run React Native (mobile)
@@ -42,13 +45,15 @@ Run React Native (mobile)
 cd apps/mobile
 yarn start
 ```
+---
 Then run on emulator or device:
 ```bash
 yarn android
 yarn ios
 ```
+---
 NOTE: If your pc is not powerfull enough for emulation or you just want to use your phone, you can connect your phone to the pc after turing on developers mode depending on which platform your own, watch some tutorials for more information.
-
+---
 COLLABORATION RULES YOU MUST FOLLOW AT ALL TIMES
 
  No direct pushes to the main branch
@@ -63,6 +68,7 @@ Code review checklist
  Follow coding standards and lint rules
  Use the PR template checklist
 
+----
 Testing
  Web(Next.js)
  ```bash
@@ -79,7 +85,7 @@ The Main branch is protected
 Requires PR approval and passing status checks before merge
 Force pushes and deletions are blocked
 
-
+---
 License
 his project is licensed under the MIT License
 
